@@ -28,3 +28,4 @@ def power(num,x=1):
 
 print(power(3))
 print(power(3,4))
+print(power(x=4,num=3))
