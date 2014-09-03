@@ -34,3 +34,8 @@ def mango():
     print(a)
 mango()
 print(a)
+
+#delete definition by del keyword
+
+del a
+print(a) #cause error because a is now unknown
