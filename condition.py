@@ -9,3 +9,9 @@ def main():
     print(st)
 
 main()
+
+def main1():
+    x, y = 20, 100
+    st = "x is less than y" if (x<y) else "x is greater or equal to y"
+    print(st)
+main1()
