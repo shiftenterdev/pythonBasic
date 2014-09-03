@@ -37,3 +37,11 @@ def demo1():
             continue
         print(x)
 demo1()
+
+#enumerate function
+
+def days():
+    day = ['bappa','abir','shimul']
+    for i,d in enumerate(day):
+        print(i, d)
+days()
