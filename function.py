@@ -9,3 +9,9 @@ def bappa():
 print(bappa())  # print statement and return the value -> none
 
 print(bappa)  # print as an object
+
+def bappa(arg1,arg2):
+    print(arg1," ",arg2)
+
+bappa(20,30)
+print(bappa(20,30))
