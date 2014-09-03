@@ -36,3 +36,4 @@ def mult_add(*args):
         result += i
     return result
 print(mult_add(10,20,40))
+print(mult_add(100,200))
