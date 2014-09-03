@@ -10,5 +10,13 @@ apple()
 def simple():
     names = ["bappa","abir","sumon"]
     for n in names:
-        print(n);
+        print(n)
 simple()
+
+#break statement
+def demo():
+    for x in range(10,20):
+        if(x==15):
+             break
+        print(x)
+demo()
