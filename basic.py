@@ -16,3 +16,13 @@ def demo():
 
 demo()
 
+#local variable
+
+def apple():
+    a = 30;
+    print(a)
+apple()
+#give 30 as output
+print(a)
+#give home as output
+
