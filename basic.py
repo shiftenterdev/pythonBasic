@@ -26,3 +26,11 @@ apple()
 print(a)
 #give home as output
 
+#global variable
+
+def mango():
+    global a
+    a = 50
+    print(a)
+mango()
+print(a)
