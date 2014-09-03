@@ -15,3 +15,7 @@ def bappa(arg1,arg2):
 
 bappa(20,30)
 print(bappa(20,30))
+
+def cube(x):
+    return x*x*x
+print(cube(20))
