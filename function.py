@@ -19,3 +19,12 @@ print(bappa(20,30))
 def cube(x):
     return x*x*x
 print(cube(20))
+
+def power(num,x=1):
+    result = 1
+    for i in range(x):
+        result = result * num
+    return result
+
+print(power(3))
+print(power(3,4))
