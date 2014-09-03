@@ -29,3 +29,10 @@ def power(num,x=1):
 print(power(3))
 print(power(3,4))
 print(power(x=4,num=3))
+
+def mult_add(*args):
+    result = 0
+    for i in args:
+        result += i
+    return result
+print(mult_add(10,20,40))
