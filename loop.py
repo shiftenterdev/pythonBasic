@@ -1,7 +1,7 @@
 #while loop
 def apple():
-    x = 0
-    while(x<5):
-        print(x)
-        x = x + 1
+
+    y = 1
+    for y in range(5,10):
+        print(y)
 apple()
